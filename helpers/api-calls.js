@@ -1,0 +1,21 @@
+const config = require('../config');
+
+module.exports = {
+    getEspnData: async function() {
+        const res = await fetch(config.espnApiUrl);
+
+        const body = await res.json();
+
+        var entries = body.entries;
+
+        var formattedEntries = entries.map(x => {
+            return {
+                name: x.member.displayName,
+                bracketName: x.name,
+                score: x.score.overallScore
+            };
+        });
+
+        return formattedEntries;
+    }
+}
