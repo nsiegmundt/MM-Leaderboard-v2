@@ -1,2 +1,38 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="container mt-5">
+
+    <div class="d-flex align-items-center mb-4">
+        <h1 class="m-0 me-3">Day 2 Scores</h1>
+        <button id="resetDay1Btn" type="button" class="btn btn-primary">
+            Reset Day 1 Data
+        </button>
+    </div>
+
+  <!-- Vertical stack -->
+  {{#each day2Data}}
+    <div class="card mb-3 shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">{{this.bracketName}}</h5>
+        <p class="card-text">
+          <strong>Name:</strong> {{this.name}}<br>
+          <strong>Day 2 Score:</strong> {{this.score}}
+        </p>
+      </div>
+    </div>
+  {{/each}}
+</div>
+
+<script>
+    $('#resetDay1Btn').on('click', function() {
+        $.ajax({
+            url: '/update-day1-data',
+            type: 'PUT',
+            success: function() {
+                location.reload();
+            },
+            error: function(xhr, status, error) {
+                console.error('Error:', error);
+                alert('Failed to reset Day 1 data.');
+            }
+        });
+    });
+</script>
