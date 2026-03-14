@@ -11,10 +11,9 @@
   {{#each day2Data}}
     <div class="card mb-3 shadow-sm">
       <div class="card-body">
-        <h5 class="card-title">{{this.bracketName}}</h5>
+        <h5 class="card-title"><span class="fw-bold text-decoration-underline">{{this.bracketName}}</span> ({{this.name}})</h5>
         <p class="card-text">
-          <strong>Name:</strong> {{this.name}}<br>
-          <strong>Day 2 Score:</strong> {{this.score}}
+          <strong>Score:</strong> {{this.score}}
         </p>
       </div>
     </div>
