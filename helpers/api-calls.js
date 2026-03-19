@@ -12,7 +12,9 @@ module.exports = {
             return {
                 name: x.member.displayName,
                 bracketName: x.name,
-                score: x.score.overallScore// + Math.ceil((Math.floor(Math.random() * 100)) / 10 ) * 10
+                score: x.score.overallScore,// + Math.ceil((Math.floor(Math.random() * 100)) / 10 ) * 10,
+                bracketId: x.id,
+                bracketUrl: `${config.espnBaseWebUrl}bracket?id=${x.id}`
             };
         });
 

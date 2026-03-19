@@ -2,8 +2,8 @@
 
     <div class="d-flex align-items-center mb-4">
         <h1 class="m-0 me-3">Day 2 Scores</h1>
-        <button id="resetDay1Btn" type="button" class="btn btn-primary">
-            Reset Day 1 Data
+        <button id="setDay1Btn" type="button" class="btn btn-primary">
+            Set Day 1 Scores
         </button>
     </div>
 
@@ -11,7 +11,7 @@
   {{#each day2Data}}
     <div class="card mb-3 shadow-sm">
       <div class="card-body">
-        <h5 class="card-title"><span class="fw-bold text-decoration-underline">{{this.bracketName}}</span> ({{this.name}})</h5>
+        <h5 class="card-title"><a target="_blank" class="fw-bold text-decoration-underline" href="{{this.bracketUrl}}">{{this.bracketName}}</a> ({{this.name}})</h5>
         <p class="card-text">
           <strong>Score:</strong> {{this.score}}
         </p>
@@ -21,17 +21,41 @@
 </div>
 
 <script>
-    $('#resetDay1Btn').on('click', function() {
-        $.ajax({
-            url: '/update-day1-data',
-            type: 'PUT',
-            success: function() {
-                location.reload();
-            },
-            error: function(xhr, status, error) {
-                console.error('Error:', error);
-                alert('Failed to reset Day 1 data.');
-            }
-        });
-    });
+  // Disable reset button friday march 20th and 12:15pm
+  document.addEventListener("DOMContentLoaded", function () {
+      const button = document.getElementById("setDay1Btn");
+
+      // What day is the party?
+      var dayOfParty = 20;
+
+      const targetDate = new Date();
+      targetDate.setMonth(2);
+      targetDate.setDate(dayOfParty);
+      targetDate.setHours(12, 15, 0, 0);
+
+      function checkTime() {
+          const now = new Date();
+
+          if (now >= targetDate) {
+              button.disabled = true;
+          }
+      }
+
+      checkTime();
+      setInterval(checkTime, 1000);
+  });
+
+  $('#setDay1Btn').on('click', function() {
+      $.ajax({
+          url: '/update-day1-data',
+          type: 'PUT',
+          success: function() {
+              location.reload();
+          },
+          error: function(xhr, status, error) {
+              console.error('Error:', error);
+              alert('Failed to reset Day 1 data.');
+          }
+      });
+  });
 </script>

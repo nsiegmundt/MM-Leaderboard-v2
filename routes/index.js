@@ -12,7 +12,7 @@ router.get('/', async (req, res, next) => {
 
   // Subtract day 2 data from day 1 data to get day 2 score
   espnData.forEach(x => {
-    x.score -= day1Data.find(y => x.bracketName == y.bracketName).score;
+    x.score -= day1Data.find(y => x.bracketName == y.bracketName)?.score;
   });
 
   espnData.sort((a, b) => b.score - a.score);

@@ -1,12 +1,205 @@
 [
     {
+        "name": "nicholasvirzi",
+        "bracketName": "Perfect Bracket 1",
+        "score": 0,
+        "bracketId": "ab525ed0-1e5d-11f1-8aaa-1123a181c5c0",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=ab525ed0-1e5d-11f1-8aaa-1123a181c5c0"
+    },
+    {
+        "name": "Kelli Waggoner",
+        "bracketName": "Kelli Waggoner's Picks 1",
+        "score": 0,
+        "bracketId": "4c465dc0-223f-11f1-b55e-3315635bfaed",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=4c465dc0-223f-11f1-b55e-3315635bfaed"
+    },
+    {
+        "name": "Bruuce32",
+        "bracketName": "Steve’s Backups",
+        "score": 0,
+        "bracketId": "4f16f920-231f-11f1-ba32-93766fdb3ffd",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=4f16f920-231f-11f1-ba32-93766fdb3ffd"
+    },
+    {
+        "name": "John Siegmundt",
+        "bracketName": "John Siegmundt's Picks 2",
+        "score": 0,
+        "bracketId": "daefa540-22cb-11f1-9a49-9107d93372e2",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=daefa540-22cb-11f1-9a49-9107d93372e2"
+    },
+    {
+        "name": "AJ Harvey",
+        "bracketName": "Matlab 01",
+        "score": 0,
+        "bracketId": "e77a9e50-2398-11f1-8412-d9af8324c1f9",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=e77a9e50-2398-11f1-8412-d9af8324c1f9"
+    },
+    {
+        "name": "John Siegmundt",
+        "bracketName": "John Siegmundt's Picks 1",
+        "score": 0,
+        "bracketId": "e0a66050-20dc-11f1-b572-b765b22a4274",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=e0a66050-20dc-11f1-b572-b765b22a4274"
+    },
+    {
+        "name": "erik.ploeger",
+        "bracketName": "erik.ploeger's Picks 1",
+        "score": 0,
+        "bracketId": "f1991aa0-22f9-11f1-900b-eb1f8f9c0201",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=f1991aa0-22f9-11f1-900b-eb1f8f9c0201"
+    },
+    {
+        "name": "aclovelace71",
+        "bracketName": "aclovelace71's Picks 1",
+        "score": 0,
+        "bracketId": "40f23740-20d3-11f1-9e34-991f2faac692",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=40f23740-20d3-11f1-9e34-991f2faac692"
+    },
+    {
+        "name": "espn91258521",
+        "bracketName": "espn91258521's Picks 2",
+        "score": 0,
+        "bracketId": "7895b9c0-2320-11f1-aa6c-e53c1482e271",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=7895b9c0-2320-11f1-aa6c-e53c1482e271"
+    },
+    {
         "name": "Nick Sieg",
         "bracketName": "Nick Sieg's Picks 2",
-        "score": 0
+        "score": 0,
+        "bracketId": "c76f6220-1fc5-11f1-8aaa-1123a181c5c0",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=c76f6220-1fc5-11f1-8aaa-1123a181c5c0"
+    },
+    {
+        "name": "Artie Scantz",
+        "bracketName": "Ian's Stellar Bracket 1",
+        "score": 0,
+        "bracketId": "dc0e8c70-214f-11f1-b572-b765b22a4274",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=dc0e8c70-214f-11f1-b572-b765b22a4274"
+    },
+    {
+        "name": "espn88516437",
+        "bracketName": "Jess p Picks 1",
+        "score": 0,
+        "bracketId": "09f69590-224c-11f1-8aaa-1123a181c5c0",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=09f69590-224c-11f1-8aaa-1123a181c5c0"
+    },
+    {
+        "name": "espn91258521",
+        "bracketName": "espn91258521's Picks 1",
+        "score": 0,
+        "bracketId": "6d838ee0-2320-11f1-9806-db4fdc00baff",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=6d838ee0-2320-11f1-9806-db4fdc00baff"
+    },
+    {
+        "name": "Ebill95",
+        "bracketName": "Erik's 100% bracket",
+        "score": 0,
+        "bracketId": "4487ce30-20e0-11f1-a967-e18dc1fceda8",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=4487ce30-20e0-11f1-a967-e18dc1fceda8"
+    },
+    {
+        "name": "BigRigginIt",
+        "bracketName": "BigRigginIt's Picks 1",
+        "score": 0,
+        "bracketId": "52e31580-2391-11f1-9ca1-97a4f8c2604c",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=52e31580-2391-11f1-9ca1-97a4f8c2604c"
+    },
+    {
+        "name": "Artie Scantz",
+        "bracketName": "Ian's Stellar Bracket 2",
+        "score": 0,
+        "bracketId": "8b9885c0-2384-11f1-aa6c-e53c1482e271",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=8b9885c0-2384-11f1-aa6c-e53c1482e271"
     },
     {
         "name": "Nick Sieg",
         "bracketName": "Nick Sieg's Picks 1",
-        "score": 0
+        "score": 0,
+        "bracketId": "ad4c78f0-173d-11f1-9aa6-8d283e1f9f51",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=ad4c78f0-173d-11f1-9aa6-8d283e1f9f51"
+    },
+    {
+        "name": "nicholasvirzi",
+        "bracketName": "Perfect Bracket 2",
+        "score": 0,
+        "bracketId": "04e25dd0-2253-11f1-b770-77498f20d1f9",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=04e25dd0-2253-11f1-b770-77498f20d1f9"
+    },
+    {
+        "name": "Bruuce32",
+        "bracketName": "Steve's Best Bracket",
+        "score": 0,
+        "bracketId": "338eaa60-2228-11f1-91af-f93ba81fc14a",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=338eaa60-2228-11f1-91af-f93ba81fc14a"
+    },
+    {
+        "name": "Jeffsieg",
+        "bracketName": "Jeffsieg's Picks 1",
+        "score": 0,
+        "bracketId": "36e36290-2247-11f1-91af-f93ba81fc14a",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=36e36290-2247-11f1-91af-f93ba81fc14a"
+    },
+    {
+        "name": "AJ Harvey",
+        "bracketName": "Matlab 02",
+        "score": 0,
+        "bracketId": "021a0a00-239b-11f1-9341-7d1a9fe08659",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=021a0a00-239b-11f1-9341-7d1a9fe08659"
+    },
+    {
+        "name": "ESPNFAN2958561224",
+        "bracketName": "Matt Lucas",
+        "score": 0,
+        "bracketId": "67adb030-2137-11f1-b1fc-7f66c33ee0aa",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=67adb030-2137-11f1-b1fc-7f66c33ee0aa"
+    },
+    {
+        "name": "Green1834",
+        "bracketName": "Green1834's Picks 1",
+        "score": 0,
+        "bracketId": "0bca4670-20d3-11f1-a967-e18dc1fceda8",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=0bca4670-20d3-11f1-a967-e18dc1fceda8"
+    },
+    {
+        "name": "Kelli Waggoner",
+        "bracketName": "Kelli Waggoner's Picks 2",
+        "score": 0,
+        "bracketId": "d5dd9a30-223f-11f1-9aca-23d7253c3f43",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=d5dd9a30-223f-11f1-9aca-23d7253c3f43"
+    },
+    {
+        "name": "John Igel",
+        "bracketName": "John Igel 1",
+        "score": 0,
+        "bracketId": "59cc5fb0-21fb-11f1-b0e6-b76180e45b91",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=59cc5fb0-21fb-11f1-b0e6-b76180e45b91"
+    },
+    {
+        "name": "Daug94",
+        "bracketName": "J Daug’s picks",
+        "score": 0,
+        "bracketId": "2ebdbce0-2392-11f1-9806-db4fdc00baff",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=2ebdbce0-2392-11f1-9806-db4fdc00baff"
+    },
+    {
+        "name": "Jeffsieg",
+        "bracketName": "Jeffsieg's Picks 2",
+        "score": 0,
+        "bracketId": "5581db10-2377-11f1-b770-77498f20d1f9",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=5581db10-2377-11f1-b770-77498f20d1f9"
+    },
+    {
+        "name": "John Igel",
+        "bracketName": "John Igel 2",
+        "score": 0,
+        "bracketId": "05ad9020-221e-11f1-8a7c-d139c0fecc9d",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=05ad9020-221e-11f1-8a7c-d139c0fecc9d"
+    },
+    {
+        "name": "Ebill95",
+        "bracketName": "Erik's Based Picks",
+        "score": 0,
+        "bracketId": "85bdb7e0-2205-11f1-ba32-93766fdb3ffd",
+        "bracketUrl": "https://fantasy.espn.com/games/tournament-challenge-bracket-2026/bracket?id=85bdb7e0-2205-11f1-ba32-93766fdb3ffd"
     }
 ]
