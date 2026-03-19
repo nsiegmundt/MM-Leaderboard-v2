@@ -1,15 +1,16 @@
 <div class="container mt-5">
 
     <div class="d-flex align-items-center mb-4">
-        <h1 class="m-0 me-3">Day 2 Scores</h1>
+        <h1 class="">Day 2 Scores </h1>
+        <h5 class="mx-3">(green brackets are gift card eligible)</h5>
         <button id="setDay1Btn" type="button" class="btn btn-primary">
             Set Day 1 Scores
-        </button>
+        </button>       
     </div>
 
   <!-- Vertical stack -->
   {{#each day2Data}}
-    <div class="card mb-3 shadow-sm">
+    <div class="card mb-3 shadow-sm {{#if this.giftCardEligable}}bg-success{{/if}}">
       <div class="card-body">
         <h5 class="card-title"><a target="_blank" class="fw-bold text-decoration-underline" href="{{this.bracketUrl}}">{{this.bracketName}}</a> ({{this.name}})</h5>
         <p class="card-text">

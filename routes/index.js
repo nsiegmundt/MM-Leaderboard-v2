@@ -15,7 +15,15 @@ router.get('/', async (req, res, next) => {
     x.score -= day1Data.find(y => x.bracketName == y.bracketName)?.score;
   });
 
-  espnData.sort((a, b) => b.score - a.score);
+  espnData.sort((a, b) => {
+    // First: sort by score (descending)
+    if (b.score !== a.score) {
+        return b.score - a.score;
+    }
+
+    // Second: sort by bracketName (ascending, alphabetical)
+    return a.name.localeCompare(b.name);
+  });
 
   res.render('index', { title: 'Day 2 Scores', day2Data: espnData});
 });
